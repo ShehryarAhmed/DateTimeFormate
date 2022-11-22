@@ -10,3 +10,11 @@
     val formateStyle7 = "hh:mm:ss a z"; //04:43:56 PM GMT+05:00
 
     val formateStyle8 = "dd-MMM-yyyy hh:mm:ss";//21-2-2020 04:22:22
+
+    val createdAt = "2022-11-15T09:20:45.849Z"
+    val sdf = SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss.SSSSSS'Z'", Locale.getDefault());
+    sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+    val outPut = SimpleDateFormat("yyyy-MM-dd hh:mm:ss", Locale.getDefault());
+
+
+    
